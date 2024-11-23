@@ -1,0 +1,29 @@
+/* Menambahkan styling untuk halaman keranjang */
+.cart {
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+#cart-items {
+    margin-bottom: 20px;
+}
+
+#total-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff4500;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keranjang - Toko Makanan Online</title>
+    <link rel="stylesheet" href="keranjang.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Toko Makanan</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="keranjang.html">Keranjang (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="cart" class="cart">
+        <h2>Keranjang Anda</h2>
+        <div id="cart-items">
+            <!-- Item keranjang akan ditampilkan di sini -->
+        </div>
+        <div id="total-price">
+            <!-- Total harga akan ditampilkan di sini -->
+        </div>
+        <button id="checkout-btn">Checkout</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Toko Makanan Online</p>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>

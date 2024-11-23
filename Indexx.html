@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Makanan Online</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Toko Makanan</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="cart.html">Keranjang (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <h1>Selamat datang di Toko Makanan Online</h1>
+        <p>Temukan berbagai makanan lezat dengan harga terjangkau.</p>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Produk Kami</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="nasi goreng.jpeg" alt="Nasi Goreng" />
+                <h3>Nasi Goreng special</h3>
+                <p>Harga: Rp 50.000</p>
+                <button class="add-to-cart" data-name="Nasi Goreng" data-price="50000">Tambah ke Keranjang</button>
+            </div>
+            <div class="product-item">
+                <img src="nasi kuning.jpeg" alt="Nasi Kuning" />
+                <h3>Nasi Kuning</h3>
+                <p>Harga: Rp 25.000</p>
+                <button class="add-to-cart" data-name="Nasi Kuning" data-price="25000">Tambah ke Keranjang</button>
+            </div>
+            <div class="product-item">
+                <img src="soto.jpeg" alt="Soto Banjar" />
+                <h3>Soto Banjar special</h3>
+                <p>Harga: Rp 70.000</p>
+                <button class="add-to-cart" data-name="Soto Banjar special" data-price="70000">Tambah ke Keranjang</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Toko Makanan Online</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

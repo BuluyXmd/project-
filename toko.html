@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Makanan Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Toko Makanan</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#cart">Keranjang</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <h1>Selamat datang di Toko Makanan Online</h1>
+        <p>Temukan berbagai makanan lezat dengan harga terjangkau.</p>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Produk Kami</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="pizza.jpg" alt="Pizza" />
+                <h3>Pizza</h3>
+                <p>Harga: Rp 50.000</p>
+                <button class="add-to-cart" data-name="Pizza" data-price="50000">Tambah ke Keranjang</button>
+            </div>
+            <div class="product-item">
+                <img src="burger.jpg" alt="Burger" />
+                <h3>Burger</h3>
+                <p>Harga: Rp 25.000</p>
+                <button class="add-to-cart" data-name="Burger" data-price="25000">Tambah ke Keranjang</button>
+            </div>
+            <div class="product-item">
+                <img src="sushi.jpg" alt="Sushi" />
+                <h3>Sushi</h3>
+                <p>Harga: Rp 70.000</p>
+                <button class="add-to-cart" data-name="Sushi" data-price="70000">Tambah ke Keranjang</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart" class="cart">
+        <h2>Keranjang Anda</h2>
+        <div id="cart-items"></div>
+        <div id="total-price"></div>
+        <button id="checkout-btn">Checkout</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Toko Makanan Online</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
